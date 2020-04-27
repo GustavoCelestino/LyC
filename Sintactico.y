@@ -9,7 +9,6 @@
 #include "y.tab.h"
 
 int yylex();
-
 FILE  *yyin, *tsout;
 
 /*-- Estructura para la tabla de simbolos --*/
