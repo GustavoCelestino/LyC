@@ -1,0 +1,59 @@
+DEFVAR
+FLOAT : a1; b1
+STRING: variable1
+FLOAT : p1; p2; p3
+INT : a;b;Identificador;alpha
+ENDDEF
+
+***/hola mundo/***
+
+variable1:="hola mundo"
+a:=530
+p1:= 123.58
+p2:= .32
+p3:= 99.
+
+DISPLAY "%@HOLAaaaa@"
+GET a
+
+WHILE(a<b){
+DISPLAY "%@HOLAaaaa@"
+a:=(100/2)
+a:=100 + b * 8
+}
+
+IF(a>2){
+DISPLAY "%@HOLAaaaa@"
+}
+
+IF(a>10){
+DISPLAY "%@HOLAaaaa@"
+IF(a>2){
+DISPLAY "%@HOLAaaaa@"
+}
+}
+ELSE{
+DISPLAY "%@HOLAaaaa@"
+}
+
+Identificador += Identificador
+Identificador -= Identificador
+Identificador *= Identificador
+Identificador /= Identificador
+
+a1 := IF( alpha > 300, a1+1, a1+2)
+
+
+IF(a>10 AND b==2){
+DISPLAY "%@HOLAaaaa@"
+}
+
+IF(a>10 OR b==2){
+DISPLAY "%@HOLAaaaa@"
+}
+IF(NOT a>10){
+DISPLAY "%@HOLAaaaa@"
+}
+
+
+***/ Esto es un comentario  ***/segundo nivel/*** simple  /***
